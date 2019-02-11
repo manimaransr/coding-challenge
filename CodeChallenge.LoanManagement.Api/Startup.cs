@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -48,17 +48,17 @@ namespace CodeChallenge.LoanManagement.Api
 
         private void LoadFirstLoanDetail(ApiContext context)
         {
-            String loanNumber = "415593955";
+            String loanNumber = "933217230";
             String customerNumber = Guid.NewGuid().ToString();
             var firstLoan = new Loan
             {
                 LoanId = 1,
                 LoanNumber = loanNumber,                
-                Description = "Placeat autem quas # " + loanNumber,
-                Balance= 1927,
-                BalanceIncludeInterestof = 376,
-                EarlyPaymentFee = 76,
-                PayoutAmount = 1889,
+                Description = "Tempore fuga quaerat # ",
+                Balance = 1225,
+                BalanceIncludeInterestof = 282,
+                EarlyPaymentFee = 145,
+                PayoutAmount = 1762,
                 CustomerNumber = customerNumber
             };
 
