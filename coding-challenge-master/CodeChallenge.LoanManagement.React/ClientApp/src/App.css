@@ -1,0 +1,151 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 .75rem;
+    min-height: 1px;
+    line-height: 50px;
+}
+
+.App-link {
+    color: #61dafb;
+}
+/*css*/
+.width70per {
+    width: 70%;
+    float: left;
+}
+
+.width30per {
+    width: 30%;
+    float: right;
+}
+
+.info-text {
+    font-size: 12px;
+    width: 60%;
+    float: left;
+    line-height: 20px;
+}
+
+.info-amt-text {
+    float: right;
+    width: 40%;
+    text-align: center;
+}
+
+    .info-amt-text b {
+        float: right;
+    }
+
+h3 {
+    padding: 1rem .75rem;
+}
+
+.borderBottom {
+    border-bottom: 1px solid #000;
+}
+
+.borderRight {
+    border-right: 1px solid #000;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+button {
+    padding: 5px 8px;
+    background: #fff;
+    border: 1px solid #cccccc;
+    border-radius: 12px;
+    min-width: 215px;
+}
+
+.personal-loan-info {
+    margin: 30px 10px;
+}
+
+.loan-table {
+    width: 70%;
+    float: left;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    padding: 0px;
+    border-radius: 3px;
+    margin-bottom: 10px;    
+}
+
+.table-header {
+    padding: 10px;
+    background: #e2e2e2;
+    border-bottom: 2px solid #cccccc;
+}
+
+.table-body > div {
+    padding: 10px;
+}
+
+    .table-body > div > p {
+        width: calc(100%/3);
+        display: inline-block;
+    }
+
+        .table-body > div > p:nth-child(2) {
+            text-align: center;
+        }
+
+@media screen and (max-width: 900px) {
+    .btn-panel {
+        text-align: center;
+    }
+
+    .info-amt-text {
+        width: 100%;
+        text-align: left;
+        padding: 10px;
+    }
+
+    .info-text {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .information {
+        border-right: 0px;
+    }
+
+        .information > div {
+            padding: 0px;
+        }
+
+    .loanTopUp .width70per, .loanTopUp .width30per {
+        width: 100%;
+        float: initial;
+    }
+
+    .loan-table {
+        width: calc(100% - 20px);
+        font-size: 13px;
+    }
+}
