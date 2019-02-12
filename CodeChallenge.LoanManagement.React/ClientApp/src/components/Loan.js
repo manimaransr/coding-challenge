@@ -30,7 +30,7 @@ class Loan extends React.Component {
                         <React.Fragment>
                             <div className="row">
                                 <p>Balance include interest of</p>
-                                <p>${this.props.balance}</p>
+                                <p>${this.props.interest}</p>
                                 <p>&nbsp;</p>
                             </div>
                             <div className="row">
