@@ -1,5 +1,22 @@
 # Coding Challenge 
 
+## Technologies used for development:
+ASP.NET Core 2.1 for web api
+
+In-memory Entity Framework Core as a data source
+
+React - UI & Component
+
+Redux - State & Store
+
+MediaQuery - responsive design
+
+XUnit, Moq - Unit testing
+
+enzyme, JSDOM for React UI- unit test case
+
+Global level error handling using asp.net core
+
 ## Overview
 
 This is a loan management application. We would be greateful if you create a single page application (SPA) with a list of loans for us.
@@ -51,5 +68,6 @@ the solution should work and provide the basic functionality. Surely we would ap
 *	It is expected to have error/exception handling mechanisms in place
 *	It would be great if you use design patterns in your application
 *	Components should be unit testable. Unit testing a few components should be enough.
+
 
 
