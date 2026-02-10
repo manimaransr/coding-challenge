@@ -6,7 +6,7 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.5",
-    "axios": "^0.18.0",
+    "axios": "^1.13.5",
     "cors": "^2.8.5",
     "corsproxy": "^1.5.0",
     "express": "^4.16.4",
